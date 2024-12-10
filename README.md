@@ -10,12 +10,15 @@ Prerequisites:**
 Transfer Learning: Use a pre-trained YOLOv11 model as a starting point and fine-tune it on your football dataset.
 By following these steps and continuously iterating on your training process, you can fine-tune YOLOv11 to achieve high performance on your football dataset.
 
-![image Plotting]('images/imgPlot.png')
+![image Plotting](images/imgPlot.png)
 
-**Steps:**
+
  * Create a Roboflow Dataset:
    * Upload Images: Upload your football image dataset to Roboflow.
    * Annotate Images: Use Roboflow's intuitive annotation tools to label objects of interest, such as players, balls, and referees.
    * Version Control: Create different versions of your dataset to experiment with different annotation strategies and data augmentation techniques.
    * Export Dataset: Export your dataset in YOLO format, which is compatible with YOLOv11.
- * Set Up Your Training
+
+![image train](images/imgTrain.jpg)
+
+### If you find this helpful 👌, please consider following and starring 🌟 this repository. Your support means a lot!😎
